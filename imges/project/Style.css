@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 1500px;
+}
+header{
+    background-image: url("imges/blue_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 130px; 
+  max-width: 100%;
+}
+nav .div1{
+    display: flex;
+    margin: 10px 50px;
+    align-items: center;
+}
+nav .div1 .img1{
+    width: 80px;
+    cursor: pointer;
+}
+nav .div1 a{
+    text-decoration: none;
+    margin-right:15px;
+    font-size: 10px; 
+}
+nav .div1 .a1{
+    border-bottom: 2px solid rgb(179, 90, 238);
+    margin-left: 3px;
+}
+
+nav .div2{
+    display: flex;
+    margin: 10px 50px;
+    align-items: center;
+   
+}
+nav .div2 img{
+    position: relative;
+    width: 80px;
+}
+nav .div2 p{
+    position: absolute;
+    right: 75px;
+    font-size: 12px;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -150px 50px;
+}
+header section .div3{
+    margin: 10px 50px;
+}
+header section .div3 h1{
+    font-size: 35px;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+header section .div3 h1 span{
+    color:rgb(97, 3, 147);
+}
+header section .div3 p{
+    font-size: 18px;
+    opacity: 0.4;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+header section .div4 .img2{
+    position: relative;
+    width: 600px;
+
+    
+}
+
+header section .div4 .img3{
+    position: absolute;
+    width: 220px;
+    left:  727px;
+    top: 22px;
+    
+    transition: all  0.2s 0.2s  linear; 
+}
+
+header section .div4 .img4{
+    position: absolute;
+    width: 300px;
+    bottom: 0px;
+    left :680px;
+    top: 327px;
+}
+
+section div .img5{
+    position:absolute;
+    width:800px;
+    top:420px;
+    left: 10px;
+
+}
